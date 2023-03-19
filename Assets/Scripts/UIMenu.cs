@@ -13,7 +13,7 @@ public class UIMenu : MonoBehaviour
     {
         string highScorePlayer = ScoreManager.Instance.ScoreData.playerName;
         int score = ScoreManager.Instance.ScoreData.highScore;
-        highScore.SetText("High Score:   " + highScorePlayer + "   " + score);
+        highScore.SetText("High Score : " + highScorePlayer + " : " + score);
     }
 
     public void StartGame ()
